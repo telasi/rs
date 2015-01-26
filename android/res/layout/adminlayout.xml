@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="20dip" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:focusable="false"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/b_go_to_reestr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#00ff00"
+        android:onClick="go_to_reestr"
+        android:text="@string/b_go_to_reestr" />
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:focusable="false"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/b_import_from_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dip"
+        android:onClick="import_reestr_from_web"
+        android:text="@string/b_import_web" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:focusable="false"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/b_export"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dip"
+        android:onClick="export_reestr"
+        android:text="@string/tmanage_reester" />
+     
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/b_import"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dip"
+        android:onClick="import_reestr"
+        android:text="@string/b_import_text" /> 
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/b_admin_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dip"
+        android:onClick="make_users"
+        android:text="@string/b_admin_pass" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/b_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dip"
+        android:onClick="back_to_admin"
+        android:text="@string/b_back_text"/> 
+ </LinearLayout>

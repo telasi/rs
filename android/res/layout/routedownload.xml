@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#660000"
+    android:orientation="vertical" >
+    
+    
+    <ProgressBar
+        android:id="@+id/downloadProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:visibility="invisible"/>
+    <TextView
+             android:layout_width="600dp"
+             android:layout_height="wrap_content"
+             android:text="@string/route_downH"
+             android:textSize="25sp"
+             android:textColor="#ffffff"
+             android:orientation="vertical"
+             android:gravity="center"
+             android:paddingLeft="25dp"
+             android:paddingBottom="15dp"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#ffffff">
+        
+        <TextView
+             android:layout_width="220dp"
+             android:layout_height="wrap_content"
+             android:text="@string/amc"
+             android:maxLines="2"
+             android:minLines="1"
+             android:textSize="20sp"
+             android:textColor="#000000"
+             android:orientation="vertical"
+             android:gravity="center"
+             android:paddingTop="15dp"
+             />
+        
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+               android:layout_width="350dp"
+               android:layout_height="wrap_content"
+               android:text="@string/Route_lab"
+               android:textColor="#000000"
+               android:gravity="center"
+               android:textSize="20sp"/>
+            
+            <LinearLayout 
+                 android:layout_width="350dp"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal" >
+                 <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dasaxeleba"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+                 <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nomeri"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+            </LinearLayout>     
+        </LinearLayout>
+        <TextView
+             android:layout_width="170dp"
+             android:layout_height="wrap_content"
+             android:text="@string/wamkiTxveli"
+             android:textColor="#000000"
+             android:textSize="20sp"/>
+
+        <TextView
+             android:layout_width="120dp"
+             android:layout_height="wrap_content"
+             android:text="@string/lbtarigi"
+             android:textColor="#000000"
+             android:textSize="20sp"/>        
+        
+        <TextView
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:text="@string/statusi"
+             android:textColor="#000000"
+             android:textSize="20sp"/>   
+          
+        <TextView
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:text="@string/wasakitxi"
+             android:textColor="#000000"
+             android:textSize="20sp"/> 
+        
+        </LinearLayout>
+        
+    
+        <!-- ლისტის დასაწყისი -->
+        <ListView
+             android:id="@+android:id/list"
+             android:layout_width="wrap_content"
+             android:layout_height="0dip"
+             android:background="#663333"               
+             android:layout_weight="1" >
+
+     </ListView>     
+     <!-- ფუტერის ფრომირება -->
+        
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#ffffff"
+        android:paddingBottom="15dp">
+        <Button
+             android:id="@+id/button1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="22sp"
+             android:textColor="#000000"
+             android:paddingLeft="425dp"
+             android:paddingRight="425dp"
+             android:onClick="exitOnDownload"
+             android:text="@string/b_exit_download" />
+
+        
+     </LinearLayout>      
+</LinearLayout>

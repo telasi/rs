@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:background="#ffffff" >
+     <!-- Header 1  დასაწყისი  (დასათაურება 1) -->
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="#ffffff"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/tvtarigi"
+             android:layout_width="400dp"
+             android:layout_height="wrap_content"
+             android:hint="@string/lbtarigi"
+             android:textColor="#000000"
+             android:textSize="22sp" />
+
+         <TextView
+             android:id="@+id/tvTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/head_raion"
+             android:textColor="#000000"
+             android:textSize="20sp" />
+
+         <TextView
+             android:layout_width="20dp"
+             android:layout_height="wrap_content"
+             android:textSize="38sp" />
+
+         <TextView
+             android:id="@+id/tvraion"
+             android:layout_width="0sp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.35"
+             android:textColor="#000000"
+             android:textSize="23sp" />
+         
+         <EditText
+             android:id="@+id/text_for_find"
+             android:layout_width="80sp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.01"
+             android:background="#000000"
+             android:gravity="center"
+             android:hint="@string/hint_text"
+             android:imeOptions="actionSearch"
+             android:inputType="number"
+             android:maxLength="6"
+             android:maxLines="1"
+             android:minLines="1"
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+         
+          <TextView
+             android:layout_width="40dp"
+             android:layout_height="wrap_content"
+             android:textSize="38sp" />         
+         
+     </LinearLayout>
+      
+     <!-- Header 2  დასაწყისი  (დასათაურება 2) -->
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="#ffffff"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/mars_dasaxeleba"
+             android:textColor="#000000"
+             android:textSize="15sp" />
+
+         <TextView
+             android:layout_width="20dp"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textColor="#000000"
+             android:textSize="35sp" />
+
+         <TextView
+             android:id="@+id/tvText"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20sp" />
+
+         <TextView
+             android:layout_width="320sp"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textColor="#000000"
+             android:textSize="35sp" />
+
+         <TextView
+             android:id="@+id/tvnumb"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/rout_numb"
+             android:textColor="#000000"
+             android:textSize="15sp" />
+
+         <TextView
+             android:layout_width="20dp"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="35sp" />
+
+         <TextView
+             android:id="@+id/tvmarstnumb"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#ffccaa"
+             android:textSize="25sp" />
+
+         <TextView
+             android:layout_width="110dp"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textColor="#000000"
+             android:textSize="18sp" />
+
+         <TextView
+             android:layout_width="130sp"
+             android:layout_height="wrap_content"
+             android:text="@string/wamkiTxveli"
+             android:textColor="#000000"
+             android:textSize="15sp" />
+
+         <TextView
+             android:id="@+id/tvwamkitxv"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:lines="1"
+             android:textColor="#000000"
+             android:textSize="18sp" />
+
+         <TextView
+             android:layout_width="50dp"
+             android:layout_height="wrap_content"
+             android:textSize="20sp" />
+     </LinearLayout>
+     
+     <!-- Header 3  დასაწყისი  (სვეტების სახელები) -->
+     <LinearLayout 
+            android:layout_width="fill_parent"
+            android:dividerPadding="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#000000" >
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="@string/raddress"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="@string/raccnumb" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:text="@string/rname" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="175dip"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:text="@string/rmricxvnumb" />    
+            <TextView
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="165dip"
+                android:layout_height="wrap_content"
+                android:text="@string/winachveneba1"
+                android:textColor="#ffffff" />    
+            <TextView
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="140dip"
+                android:layout_height="wrap_content"
+                android:text="@string/raxalichv"
+                android:textColor="#ffffff"/>    
+     </LinearLayout>
+
+     <!--ლისტ ელემენტის ჩამოყალიბება  -->
+
+     <ListView
+         android:id="@+id/android:list"
+         android:layout_width="wrap_content"
+         android:layout_height="0dip"
+         android:layout_weight="1" >
+
+     </ListView>
+     <TextView
+         android:id="@android:id/empty" 
+         android:textSize="20sp"
+         android:gravity="center"
+         android:layout_width="340dip"
+         android:layout_height="wrap_content"
+         android:text="@string/listisempty"
+         android:textColor="#ffffff"
+         android:layout_weight="1"/>    
+     <!-- ლისტ ელემენტის დასასრული -->
+     <!-- Footer  დასაწყისი  -->
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="#000000"
+         android:dividerPadding="10dp"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/sul_chanaweri"
+             android:layout_width="230dip"
+             android:layout_height="wrap_content"
+             android:gravity="left"
+             android:text="@string/sul_chanaweri"
+             android:textColor="#ffffff"
+             android:textSize="15sp" />
+         
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#000000"
+                 android:orientation="vertical"
+                  >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#000000"
+                        android:orientation="horizontal">
+                        <TextView
+                           android:id="@+id/normal"  
+                           android:layout_width="110sp"
+                           android:layout_height="wrap_content"
+                           android:gravity="left"
+                           android:text="@string/normal"
+                           android:textColor="#00ff00"
+                           android:textSize="17sp" />
+                        <TextView
+                           android:id="@+id/mricxvelis_brunva"  
+                           android:layout_width="110sp"
+                           android:layout_height="wrap_content"
+                           android:gravity="left"
+                           android:text="@string/mricxvelis_brunva"
+                           android:textColor="#ff0000"
+                           android:textSize="17sp" />
+                        <TextView
+                           android:id="@+id/min_xarji"  
+                           android:layout_width="120sp"
+                           android:layout_height="wrap_content"
+                           android:gravity="left"
+                           android:text="@string/min_xarji"
+                           android:textColor="#00CCFF"
+                           android:textSize="17sp" />
+                        <TextView
+                           android:id="@+id/max_xarji" 
+                           android:layout_width="120sp"
+                           android:layout_height="wrap_content"
+                           android:gravity="left"
+                           android:text="@string/max_xarji"
+                           android:textColor="#ffff00"
+                           android:textSize="17sp" />
+                        <TextView
+                           android:id="@+id/umricxvelo" 
+                           android:layout_width="110sp"
+                           android:layout_height="wrap_content"
+                           android:gravity="left"
+                           android:text="@string/umricxvelo"
+                           android:textColor="#0000ff"
+                           android:textSize="17sp" />
+                        
+                        <TextView
+                           android:id="@+id/nulovaniwakitxva" 
+                           android:layout_width="110sp"
+                           android:layout_height="wrap_content"
+                           android:gravity="left"
+                           android:text="@string/nulovaniwakitxva"
+                           android:textColor="#ff00ff"
+                           android:textSize="17sp" />
+                 </LinearLayout>
+          </LinearLayout>
+
+     </LinearLayout>
+     <!-- FOOTER დასასრული -->
+</LinearLayout>

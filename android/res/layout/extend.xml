@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#504a4b"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|clip_horizontal"
+        android:text="@string/H_find"
+        android:textColor="#000000"
+        android:textSize="21sp" />
+     <TextView
+        android:layout_height="20dip"
+        android:layout_width="wrap_content"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dip"
+            android:text="@string/Route_lab"
+            android:textSize="23sp" />
+
+         <TextView
+            android:id="@+id/spRoute"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_height="40dip"
+            android:layout_width="300dip">
+        </TextView>
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:textSize="23sp"
+            android:text="@string/Street_lab" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:textSize="23sp"
+            android:layout_height="40dip"
+            android:layout_width="600dip">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:textSize="23sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="@string/House_lab"/>
+        <EditText
+            android:id="@+id/tvHouse"
+            android:layout_width="250sp"
+            android:textSize="23sp"
+            android:layout_height="40sp"
+            android:ems="10" >
+             <requestFocus />
+        </EditText>
+        <TextView
+            android:textSize="23sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="@string/bilding_lab" />
+        <EditText
+            android:id="@+id/tvBilding"
+            android:textSize="23sp"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:ems="10" >
+        </EditText>
+     </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:textSize="23sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:text="@string/forch_lab" />
+        <EditText
+            android:id="@+id/tvForch"
+            android:textSize="23sp"
+            android:layout_width="150dip"
+            android:layout_height="40dip"
+            android:ems="10" >
+        </EditText>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:textSize="23sp"
+            android:text="@string/flat_lab" />
+        <EditText
+            android:id="@+id/tvFlat"
+            android:textSize="23sp"
+            android:layout_width="200sp"
+            android:layout_height="40sp"
+            android:ems="10" >
+        </EditText>
+        <TextView
+            android:layout_width="500dip"
+            android:layout_height="40dip"
+            android:textSize="23sp"/>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal" >  
+          <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="40dip"
+             android:textSize="23sp"
+             android:text="@string/accnumb_lab" />
+          <EditText
+            android:id="@+id/accnumbID"
+            android:textSize="23sp"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:ems="10" >
+          </EditText>
+          
+          <TextView
+            android:layout_width="70dip"
+            android:layout_height="40dip"
+            android:textSize="23sp"/>
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:textSize="23sp"
+            android:text="@string/mricxvnumb_lab" />
+
+          <EditText
+              android:id="@+id/mricxvnumbID"
+              android:layout_width="150dip"
+              android:layout_height="40dip"
+              android:ems="10"
+              android:inputType="number"
+              android:textSize="23sp" >
+
+          </EditText>
+          <TextView
+             android:layout_width="170dip"
+             android:layout_height="40dip"
+             android:textSize="23sp"/>     
+          <Button
+               android:id="@+id/btnQueryOK"
+               android:layout_width="150dip"
+               android:layout_height="50dip"
+               android:onClick="MakeTextQuery"
+               android:text="@string/execute" />
+           <TextView
+               android:layout_width="40dip"
+               android:layout_height="40dip"
+               android:textSize="23sp"/>     
+          
+          <Button
+               android:id="@+id/btnQueryCancel"
+               android:layout_width="150dip"
+               android:layout_height="50dip"
+               android:onClick="QueryCancel"
+               android:text="@string/cancel" />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal" >
+          <CheckBox
+             android:id="@+id/ReadNoID"
+             android:layout_height="50dip"
+             android:textColor="#000000"
+             android:text="@string/ReadNo"
+             android:layout_width="250dip"/>
+          <CheckBox
+            android:id="@+id/ReadUmricxID"
+            android:layout_height="50dip"
+            android:textColor="#0000ff"
+            android:text="@string/ReadUmricxvelo"
+            android:layout_width="250dip"
+             />
+          <CheckBox
+            android:id="@+id/ReadNulChvenebaID"
+            android:layout_height="50dip"
+            android:textColor="#ff00ff"
+            android:text="@string/Readnull"
+            android:layout_width="250dip"
+            />
+          
+          <CheckBox
+              android:id="@+id/ReadBruniID"
+              android:layout_height="50dip"
+              android:textColor="#ff0000"
+              android:text="@string/ReadBruni"
+              android:layout_width="250dip"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">      
+        <CheckBox
+              android:id="@+id/ReadMaxXarjiID"
+              android:layout_height="50dip"
+              android:textColor="#ffff00"
+              android:text="@string/ReadMaxXarji"
+              android:layout_width="250dip"/>   
+        <CheckBox
+              android:id="@+id/ReadMinXarjiID"
+              android:layout_height="50dip"
+              android:textColor="#00CCFF"
+              android:text="@string/ReadMinXarji"
+              android:layout_width="250dip"/>
+       <CheckBox
+              android:id="@+id/ReadNormalID"
+              android:layout_height="50dip"
+              android:textColor="#00ff00"
+              android:text="@string/ReadNormal"
+              android:layout_width="250dip"/>  
+
+
+    </LinearLayout>    
+</LinearLayout>

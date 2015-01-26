@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="listisempty">მარშუტი არაა ატვირთული</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">მრიცხველის ჩვენების წაკითხვის რეესტრი</string>
+    <string name="pin_code">პინ კოდი</string>
+    <string name="login">სისტემაში შესვლა</string>
+    <string name="id_title">კოდი</string>
+    <string name="user">მომხმარებელი</string>
+    <string name="users_text">შეიყვანეთ მომხმ. სახელი</string>
+    <string name="pin_hint_text">შეიყვანეთ პინ კოდი</string>
+    <string name="b_ok_text">შესვლა</string>
+    <string name="b_cancel_text">გაუქმება</string>
+    <string name="b_import_text">მარშუტის ატვირთვა ლოკალურად </string>
+    <string name="b_export_text">მარშუტის  გაგზავნა ინტერნეტით</string>
+    <string name="b_back_text">დაბრუნება</string>
+    <string name="admin_layout_hed">ადმინისტრირება</string>
+    <string name="read_label">ელ. ენერგიის ხარჯის აღმრიცხველი რეესტრი</string>
+    <string name="header_title">სამარშუტო ფურცელი</string>
+    <string name="head_raion">რაიონი:</string>
+    <string name="b_admin_pass">სისტემის მომხმარებლები</string>
+    <string name="bt_reding_text">ჩვენების შეტანა</string>
+    <string name="lbtarigi">თარიღი</string>
+    <string name="mars_dasaxeleba">მარშუტის დასახელება</string>
+    <string name="rout_numb">ნომერი:</string>
+    <string name="wamkiTxveli">წამკითხველი</string>
+    <string name="raddress">მისამართი</string>
+    <string name="raccnumb">მომხმ.#</string>
+    <string name="rname">დასახელება</string>
+    <string name="rangnum">ანგ #</string>
+    <string name="rmricxvnumb">მრიც #</string>
+    <string name="raxalichv">ჩვენება</string>
+    <string name="marshnum">მარშ #</string>
+    <string name="hint_text">ძებნა</string>
+    
+    <string name="sul_chanaweri">სულ წასაკითხია:</string> 
+    <string name="wakiTxuli">რაოდ.</string>
+    <string name="saeTvo">საეჭვო წაკითხვა: </string>
+    <string name="statusi">მარშ. სტატუსი:</string>
+    
+    <string name="title">Quote:</string>  
+    <string name="confirm">შენახვა</string> 
+    <string name="cancel">უარყოფა</string> 
+    
+    <string name="modeliskodi">მოდელის კოდი</string>
+    <string name="brjenisnumb">ბრჯენი/ლუქის #</string>
+    <string name="isdisconected">შეზღუდული აქვს ელ ენერგია</string>
+    <string name="araqvsmricxv">მრიცხველი</string>
+    <string name="koeficienti">კოეფიციენტი</string>
+    <string name="winachveneba">წინა რეალური ჩვენება</string>
+    <string name="winachveneba1">წინა  ჩვენება  </string>
+    <string name="winachvenebistar">წინა რეალური ჩვენების თარიღი</string>
+    <string name="note">შენიშვნა</string>
+    
+    <string name="b_import_web">რეესტრის მიღება ინტერნეტით</string>
+    <string name="b_go_to_reestr">რეესტრზე გადასვლა</string>
+    <string name="b_more">გაფართოებული</string>
+    
+    
+    <string name="mricxvelis_brunva">ბრუნი</string>
+    <string name="normal">ნორმალ.</string>
+    <string name="min_xarji">მინ.ხარჯი</string>
+    <string name="max_xarji">მაქს.ხარჯი</string>
+    <string name="umricxvelo">უმრიცხვ.</string>
+    <string name="nulovaniwakitxva">ნულ.ჩვენ</string>
+    
+    
+    <string name="MarkNoRead">მონიშვნა როგორც წაუკითხავის</string>
+    <string name="mricxv_tanrigi">თანრიღი</string> 
+    
+    <string name="Street_lab">ქუჩა</string>
+    <string name="House_lab">სახლი</string>
+    <string name="bilding_lab">კორპუსი</string>
+    <string name="forch_lab">სადარბაზო</string>
+    <string name="flat_lab">ბინა</string>
+    <string name="Route_lab">მარშუტი</string>
+    <string name="Route_n">მარშუტი #</string>
+    <string name="execute">შესრულება</string>
+    
+    <string name="ReadNormal">არასაეჭვო წაკითხვა </string>
+    <string name="ReadBruni">ბრუნი</string>
+    <string name="ReadMinXarji">მინიმალური ხარჯი </string>
+    <string name="ReadMaxXarji">მაქსიმალური ხარჯი</string>
+    <string name="ReadUmricxvelo">უმრიცხველო</string>
+    <string name="ReadNulChveneba">წაკითხვა ნულოვანი ჩვენებით</string>
+    <string name="ReadNo">წასაკითხი</string>
+    <string name="Readnull">ნულოვანი ჩვენება</string>
+    <string name ="accnumb_lab">აბონენტის  #</string>
+    <string name ="mricxvnumb_lab">მრიცხველის #</string>
+    <string name ="H_find">რეესტრი, ფილტრის დაყენება</string>
+    <string name ="amc">ამც</string>
+    <string name ="atvirtva">ატვირთვა</string>
+    <string name ="dasaxeleba">დასახელება</string>
+    <string name ="nomeri">ნომერი</string>
+    <string name ="wasakitxi">წასაკითხი</string> 
+    <string name ="route_downH">მარშუტის ჩამოტვირთვა</string>
+    <string name ="route_upH">ჩამოტვირთული მარშუტები</string>
+    <string name ="Save">შენახვა</string>
+    <string name ="New_mricxvel">ახალი რეესტრის დამატება</string>
+    <string name ="Edit">რედაქტირება</string>
+    <string name ="b_axali_mricxveli">ახალი მრიცხველი</string>
+    <string name ="tmanage_reester">მარშუტის მართვა</string>
+    <string name ="ststus">სტატუსი</string>
+    <string name ="shenishvna">რეალურად არის</string>
+    <string name ="app_user_name">სისტემის მომხმარებელთა მართვა</string>
+    <string name ="delere_record">ჩანაწერის წაშლა</string>
+    <string name = "update_record">ჩანაწერის რედაქტირება</string>
+    <string name = "insert_record">მომხმარელის დამატება</string>
+    <string name ="User_name" >მომხმარებლის სახელი</string>
+    <string name ="User_pon" >მომხმარებლის პინ-კოდი</string>
+    <string name ="User_ID" >მომხმარებლის კოდი</string>
+    <string name = "user_passwd">მომხმარებლის პაროლი</string>
+    <string name = "user_insp_text">კოდი</string>
+    <string name = "user_password_text">პაროლი</string>
+    <string name = "user_name_text">სახელი</string>
+    <string name = "ad_title" >რეესტრზე გადასვლა</string>
+    <string name = "ad_message">ყ უ რ ა დ ღ ე ბ ი თ \n დაფიქსირდა უცხო წამკითხველის რეესტრი</string>
+    <string name = "new_account">მოიძებნა ახალი მრიცხველი</string>
+    <string name = "extend_find">გაფართოებული ძებნა</string>
+    <string name = "cloes_reester">მარშუტის დახურვა</string>
+    <string name = "upload_reester">მარშუტის გადაგზავნა</string>
+    <string name = "download_rester">ახალი მარშუტის ჩამოტვირთვა</string>
+    <string name = "exit">პროგრამიდან გამოსვლა</string>
+    <string name = "route_manage">მარშუტების მართვა</string>
+    <string name = "b_exit_download">ჩამოტვირთულ მარშუტებზე გადასვლა ...</string>
+    <string name = "goToMainReester">მიმდინარე მარშუტი</string>
+    <string name = "goToReesterdownload">ახალი მარშუტის ჩამოტვირთვა</string>
+    <string name = "goToManageReester">მ ა რ შ უ ტ ე ბ ი ს      მ ა რ თ ვ ა </string>
+    <string name = "modrl_code">მოდელის კოდი</string>
+    <string name = "brjeni">"ბრჯენი/ლიქი"</string>
+    <string name = "koeficient">კოეფიციენტი</string>
+    <string name = "chveneba">შეიტანეთ ჩვენება</string>
+    <string name = "btnYes">დიახ</string>
+    <string name = "btnNo">არა</string>
+    <string name = "btnCancel">გადავიფიქრე</string>
+    <string name = "CancelQuery">ფილტრის მოხსნა</string>
+    <string name = "isDownloadRunning">მარშუტის ჩამოტვირთვა მიმდინარეობს \n გთხოვთ დაელოდოთ </string>
+    <string-array 
+            name = "Notes4Spinner">
+        <item> - - - - - - - - - - </item>
+        <item>„მრიცხველი შეცვლილია“</item>
+        <item>„მრიცხველის ტიპი/ ან ნომერი შესასწორებელია“</item>
+        <item>„ბინა/ობიექტი დაკეტილია“</item>
+        <item>„მრიცხველი არ დგას“</item>
+        <item>„გათიშულია ელექტრონული მრიცხველი“</item>
+        <item>„დანგრეულია არ არსებობს“</item>
+        <item>„თვითნებური ჩართვა“</item>
+        <item>„მრიცხველის ბჯენი არ არსებობს/ან დაზიანებულია“</item>
+    </string-array>
+    
+    <!-- აქედან იწყება ნოუტების ტექსტები -->
+        <string name = "myaNote1">როუტი არ გაქვთ ჩამოტვირთული \n ჩამოტვირთეთ ერთი მაინც</string>
+        <string name = "mainreestriaragaqvt">მარშუტი სამუშაოდ გააქტიურებული არ გაქვთ \n გთხოვთ გააქტიუროთ </string>
+        <string name = "noreesterdownloads">მარშუტები არ არის ჩამოტვირთული \n გთხოვთ ჩამოტვირთოთ</string>
+        <string name = "incorectpassword">არასწორი პაროლი ან მომხმარებლის სახელი  \n  გთხოვთ გაიმეოროთ</string>
+        <string name = "DovloadIsstarted">მარშუტის მიღება დაიწყო </string>
+        <string name = "DovloadIsFinished">მარშუტის ატვირთვა წარმატებით დასრულდა</string>
+        <string name = "UploadIsstarted">მარშუტის გადაგზავნა დაიწყო </string>
+        <string name = "routeisdownloades">მარშუტი უკვე მიღებულია  \n იგივე მარშუტის მიღება არ დაიშვება </string>
+        <string name = "CloseReesterNoteText">მარშუტის დახურვა</string>
+        <string name = "CloseReesterMessageText">ყველა ჩვენება არ არის აღებული, ნამდვილად გსურთ დახურვა? </string>
+        <string name = "CloseReesterMessageText1">ნამდვილად გსურთ დახურვა? </string>
+        <string name = "UploadeReesterNoteText">მარშუტი უკვე გადაგზავნილია!</string>
+        <string name = "UploadReesterMessageText">გადაგზავნილი მარშუტი ჩანაცვლდება, მიმდინარე მარშუტით. ნამდვილად გსურთ გადაგზავნა?</string>
+        <string name = "UploadReesterMessageText1">ნამდვილად გსურთ გადაგზავნა?</string>
+        <string name = "UploadReesterMessageText0">ნამდვილად აპირებთ მარშუტის გადაგზავნას?</string>
+        <string name = "UploadReesterTitleText0">მარშუტის გადაზავნა</string>
+        <string name = "exitMessaheText">ნამდვილად აპირებთ უკან დაბრუნებას?</string>
+        <string name = "exitTitleText">მიმდინარე ფორმიდან გამოსვლა</string>
+        <string name = "noDeletedRoute">მარშუტი არ დაიხურება</string>
+        <string name = "deleteroutetitleText">მარშუტის წაშლა, ფ რ თ ხ ი ლ ა დ ,  მონაცემები დაიკარგება</string>
+        <string name = "deleterouteMessageText">ნამდვილად წავშალო მარშუტი ? </string>
+        <string name = "UploadeReesterTitleText">მარშუტი არ არის სრულად წაკითხული </string>
+        <string name = "noCloseRoute">მარშუტი ცარიელია, მისი გადაგზავნა არ შეიძება</string>
+        <string name = "OpeningReesterTitleText">დახურული ან გადაგზავნილი მარშუტის გახსნა !</string>
+        <string name = "OpeningReesterMessageText1">გახსენით მხოლოდ აუცილებელი ცვლილების შეტანისათვის,  \n გ  ა  ვ  ხ  ს  ნ  ა   __  ნ  ა  მ  დ  ვ  ი  ლ  ა  დ ? </string>
+</resources>

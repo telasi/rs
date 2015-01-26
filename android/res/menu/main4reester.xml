@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/extend_find"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/extend_find">
+    </item>    
+    <item android:id="@+id/new_account"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/new_account">
+    </item>
+    <item android:id="@+id/cloes_reester"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/cloes_reester">
+    </item>
+    <item android:id="@+id/goToManageReester"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/goToManageReester">
+    </item>
+    <item android:id="@+id/upload_reester"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/upload_reester">
+    </item>
+    <item android:id="@+id/download_rester"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/download_rester">
+    </item>
+    <item android:id="@+id/exit"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title ="@string/exit">
+    </item>
+    
+</menu>
