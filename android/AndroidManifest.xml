@@ -12,7 +12,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="ge.telasi.reading.system.login"
+            android:name="ge.telasy.reading.system.login"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,27 +21,27 @@
             </intent-filter>
         </activity>
         <activity 
-             android:name="ge.telasi.reading.system.enterCountersShow"
+             android:name="ge.telasy.reading.system.enterCountersShow"
              android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" 
              android:stateNotNeeded="false">
         </activity>
         <activity
-             android:name="ge.telasi.reading.system.TARSAktivity"
+             android:name="ge.telasy.reading.system.TARSAktivity"
              android:screenOrientation="landscape"
              android:stateNotNeeded="false"
              android:label="@string/header_title"
              >
         </activity>
-        <activity android:name="ge.telasi.reading.system.AdminlayoutActivity"></activity>
-        <activity android:name="ge.telasi.reading.system.FromQuery"></activity>
-        <activity android:name="ge.telasi.reading.system.routedownload"></activity>
+        <activity android:name="ge.telasy.reading.system.AdminlayoutActivity"></activity>
+        <activity android:name="ge.telasy.reading.system.FromQuery"></activity>
+        <activity android:name="ge.telasy.reading.system.routedownload"></activity>
         <activity 
-                android:name="ge.telasi.reading.system.routemanager"
+                android:name="ge.telasy.reading.system.routemanager"
                 android:label="@string/route_manage">
         </activity>
-        <activity android:name="ge.telasi.reading.system.outOfReester"></activity>
+        <activity android:name="ge.telasy.reading.system.outOfReester"></activity>
         <activity 
-                 android:name="ge.telasi.reading.system.UserManager"
+                 android:name="ge.telasy.reading.system.UserManager"
                  android:label="@string/app_user_name"
          >
         </activity>

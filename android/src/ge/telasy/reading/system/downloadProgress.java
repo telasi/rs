@@ -1,4 +1,4 @@
-package ge.telasi.reading.system;
+package ge.telasy.reading.system;
 
 import java.util.concurrent.TimeUnit;
 

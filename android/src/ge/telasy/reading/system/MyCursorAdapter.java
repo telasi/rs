@@ -1,4 +1,4 @@
-package ge.telasi.reading.system;
+package ge.telasy.reading.system;
 
 import android.content.Context;
 import android.database.Cursor;

@@ -1,4 +1,4 @@
-package ge.telasi.reading.system;
+package ge.telasy.reading.system;
 
 public interface Waiting {
 

@@ -1,4 +1,4 @@
-package ge.telasi.reading.system;
+package ge.telasy.reading.system;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package ge.telasi.reading.system;
+package ge.telasy.reading.system;
 
 import ge.telasy.reading.system.R;
 import android.app.AlertDialog;
