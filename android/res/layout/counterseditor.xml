@@ -1,479 +1,518 @@
-<?xml version="1.0" encoding="utf-8"?>  
-       
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
-        android:orientation="vertical" 
-        android:layout_width="fill_parent"  
-        android:layout_height="fill_parent"
-        android:background="#fffce6">  
-         <!-- რეალური  ეკრანის ფორმირება  -->
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">
-                <TextView
-                   android:textSize="20sp"
-                   android:layout_width="450sp"  
-                   android:layout_height="45dip"/>
-               <Button
-                  android:id="@+id/confirm"  
-                  android:textSize="25sp"
-                  android:layout_height="55dip"
-                  android:text="@string/confirm"  
-                  android:layout_width="150dip"/>   
-               <TextView
-                   android:textSize="20sp"
-                   android:layout_width="70dip"  
-                   android:layout_height="45dip"/>                   
-                
-               <Button
-                  android:id="@+id/cancel"  
-                  android:textSize="25sp"
-                  android:layout_height="55dip"
-                  android:text="@string/cancel"  
-                  android:layout_width="150dip"/> 
-               <TextView
-                   android:textSize="20sp"
-                   android:layout_width="100dip"  
-                   android:layout_height="45dip"/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fffce6"
+    android:orientation="vertical" >
 
-               <Button
-                   android:id="@+id/MarkNoRead"
-                   android:layout_width="wrap_content"
-                   android:layout_height="55dip"
-                   android:text="@string/MarkNoRead"
-                   android:textSize="15sp" />
-     
-         </LinearLayout>
+    <!-- რეალური  ეკრანის ფორმირება -->
 
-         <TextView
-               android:textSize="20sp"
-               android:layout_width="30dip"  
-               android:layout_height="20dip"/> 
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-               
-               <TextView
-                   android:textSize="35sp"
-                   android:textColor="#ff0000"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/raxalichv"/>
-               <EditText
-                  android:textSize="35sp"
-                  android:id="@+id/vnAxaliChveneba"
-                  android:textColor="#ff0000"
-                  android:background="#000000"
-                  android:inputType="numberDecimal"                   
-                  android:textStyle="bold"
-                  android:layout_width="wrap_content" 
-                  android:hint ="@string/chveneba"
-                  android:minLines="1"
-                  android:maxLines="1"
-                  android:maxLength="15"
-                  android:layout_height="wrap_content"/>  
-         </LinearLayout>
-         
-         <LinearLayout
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content"> 
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/winachveneba"/>
-             <TextView
-                  android:id="@+id/vnWinaChveneba"
-                  android:textSize="25sp"
-                  android:textColor="#000000"
-                  android:background="#00ff00"
-                  android:layout_width="wrap_content"  
-                  android:layout_height="45dip"/>    
-             <TextView
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="40dip"/>
-             <TextView
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/mricxv_tanrigi"/>
-             <TextView
-                   android:id="@+id/vnMricxv_tanrigi"
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="25dip"/>
-             
-              <TextView
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="45dip"/>
-               <TextView
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/min_xarji"/> 
-               <TextView
-                  android:id="@+id/vnMin_xarji"
-                  android:textSize="25sp"
-                  android:textColor="#000000"
-                  android:background="#ffffcc"
-                  android:layout_width="wrap_content"  
-                  android:layout_height="45dip"/>   
-              <TextView
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="45dip"/>
-              <TextView
-                   android:textSize="15sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="100dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/max_xarji"/>          
-             
-              <TextView
-                  android:id="@+id/vnmax_xarji"
-                  android:textSize="15sp"
-                  android:textColor="#000000"
-                  android:background="#ffffcc"
-                  android:layout_width="wrap_content"  
-                  android:layout_height="45dip"/> 
-             
-             
-         </LinearLayout>
-         <!-- აქ მინდა გადმოვიტანო წინა ჩვენაბა და სპინნერი -->
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/note"/>
-               <Spinner
-                   android:id="@+id/vnNote"
-                   android:textSize="25sp"
-                   android:layout_height="45dip"
-                   android:layout_width="500dip">
-              </Spinner>
-         
-         </LinearLayout>   
-         <!-- ეს დასასრულია გადმოსატანი მონაკვეტის -->
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content"> 
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:background="#ffffcc"
-                   android:text="@string/rmricxvnumb"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
 
-               <TextView
-                   android:id="@+id/vnMricxvNumb"
-                   android:layout_width="205dp"
-                   android:layout_height="45sp"
-                   android:background="#ffffcc"
-                   android:textColor="#000000"
-                   android:textSize="25sp" >
+        <TextView
+            android:layout_width="450sp"
+            android:layout_height="45dip"
+            android:textSize="20sp" />
 
-               </TextView>    
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="150dip"
+            android:layout_height="55dip"
+            android:text="@string/confirm"
+            android:textSize="25sp" />
 
-               <TextView
-                   android:layout_width="135dp"
-                   android:layout_height="45dip"
-                   android:textColor="#000000"
-                   android:textSize="25sp" />
-    
-               <TextView
-                   android:layout_width="236dp"
-                   android:layout_height="45sp"
-                   android:text="@string/koeficienti"
-                   android:textColor="#000000"
-                   android:textSize="25sp" >
+        <TextView
+            android:layout_width="70dip"
+            android:layout_height="45dip"
+            android:textSize="20sp" />
 
-               </TextView>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="150dip"
+            android:layout_height="55dip"
+            android:text="@string/cancel"
+            android:textSize="25sp" />
 
-               <TextView
-                   android:id="@+id/vnKoefocienti"
-                   android:layout_width="258dp"
-                   android:layout_height="45sp"
-                   android:textColor="#000000"
-                   android:textSize="25sp" >
-               </TextView>
-               
-         </LinearLayout>
-         <LinearLayout
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content" 
-             >
-             <TextView
-                 android:textSize="25sp"
-                 android:textColor="#000000"
-                 android:layout_width="400dip"  
-                 android:layout_height="45dip"
-                 android:text="@string/isdisconected"/>
-             <TextView
-                 android:id="@+id/vnIsDisconected"
-                 android:textSize="25sp"
-                 android:textColor="#000000"
-                 android:layout_width="wrap_content"  
-                 android:layout_height="wrap_content"/>
-         </LinearLayout>
-                  <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/araqvsmricxv">
-                   
-               </TextView>  
-               <TextView
-                  android:id="@+id/vnAraacvsMricxveli"
-                  android:textSize="25sp"
-                  android:textColor="#000000"
-                  android:background="#ffffcc"
-                  android:layout_width="wrap_content"  
-                  android:layout_height="45dip">
-               </TextView>
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:textSize="20sp" />
 
-               <TextView
-                   android:layout_width="445dp"
-                   android:layout_height="45dip"
-                   android:text="@string/winachvenebistar"
-                   android:textColor="#000000"
-                   android:textSize="25sp">
-               </TextView> 
-               <TextView
-                  android:id="@+id/vnWinaChvenebisTar"
-                  android:textSize="25sp"
-                  android:textColor="#000000"
-                  android:layout_width="wrap_content"  
-                  android:layout_height="45sp">
-               </TextView>     
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/raddress"/>
-               <TextView
-                   android:id="@+id/vnAddress"
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_height="45dip"
-                   android:layout_width="wrap_content"/>
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content"> 
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/raccnumb"/> 
-               <TextView
-                   android:id="@+id/vnAccNumb"
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="wrap_content"  
-                   android:layout_height="wrap_content"/>
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content"> 
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/rname"/>                 
-               <TextView
-                   android:id="@+id/vnName"
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:background="#ffffcc"
-                   android:layout_width="wrap_content"  
-                   android:layout_height="45dip"/>
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/rangnum"/>  
-               <TextView
-                   android:id="@+id/vnAngNumb"
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="wrap_content"  
-                   android:layout_height="wrap_content"/>
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:textSize="20sp"
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:text="@string/modeliskodi"/>
-              <TextView 
-                   android:id = "@+id/vnModelKod"
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="wrap_content"
-                   android:layout_height="45dip" 
-                   />                    
-               
-               <TextView
-                   android:layout_width="298dp"
-                   android:layout_height="45dip"
-                   android:textColor="#000000"
-                   android:textSize="25sp"
-                   />
-               <TextView
-                    android:layout_width="232dp"
-                    android:layout_height="45dip"
-                    android:text="@string/modeliskodi"
-                    android:textColor="#000000"
-                    android:textSize="20sp" />
-     
-               <EditText
-                  android:textSize="20sp"
-                  android:id="@+id/modelkodID"
-                  android:textColor="#ff0000"
-                  android:background="#000000"
-                  android:layout_width="wrap_content" 
-                  android:hint ="@string/modrl_code" 
-                  android:minLines="1"
-                  android:maxLines="1"
-                  android:enabled="false"
-                  android:focusable="false"
-                  android:layout_height="wrap_content"/>  
-               
-               
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content">  
-              <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="400dip"  
-                   android:layout_height="45dip"
-                   android:background="#ffffcc"
-                   android:text="@string/brjenisnumb"/>    
-               <TextView
-                  android:id="@+id/vnBrdgLuk"
-                  android:textSize="25sp"
-                  android:background="#ffffcc"
-                  android:textColor="#000000"
-                  android:layout_width="wrap_content"  
-                  android:layout_height="45dip"/>
-               <TextView
-                   android:textSize="25sp"
-                   android:textColor="#000000"
-                   android:layout_width="300dip"  
-                   android:layout_height="45dip"
-                   android:background="#ffffcc"/> 
-                              <TextView
-                   android:layout_width="237dp"
-                   android:layout_height="45dip"
-                   android:background="#ffffcc"
-                   android:text="@string/shenishvna"
-                   android:textColor="#000000"
-                   android:textSize="20sp" />
-               
-               <EditText
-                  android:textSize="20sp"
-                  android:id="@+id/brjID"
-                  android:textColor="#ff0000"
-                  android:background="#000000"
-                  android:layout_width="wrap_content" 
-                  android:hint = "@string/brjeni"
-                  android:minLines="1"
-                  android:maxLines="1"
-                  android:maxLength="6"
-                  android:enabled="false"
-                  android:focusable="false"
-                  android:layout_height="wrap_content"/>  
-         </LinearLayout>
-         <LinearLayout 
-               android:orientation="horizontal" 
-               android:layout_width="wrap_content"  
-               android:layout_height="wrap_content"> 
-               
-               <TextView
-                   android:layout_width="237dp"
-                   android:layout_height="45sp"
-                   android:text="@string/shenishvna"
-                   android:textColor="#000000"
-                   android:textSize="20sp" />
-               
-               <EditText
-                  android:textSize="20sp"
-                  android:id="@+id/koefID"
-                  android:enabled="false"
-                  android:focusable="false"
-                  android:textColor="#ff0000"
-                  android:background="#000000"
-                  android:layout_width="wrap_content" 
-                  android:hint = "@string/koeficient" 
-                  android:minLines="1"
-                  android:maxLines="1"
-                  android:maxLength="6"
-                  android:layout_height="wrap_content"/>  
-         </LinearLayout>
-</LinearLayout> 
+        <Button
+            android:id="@+id/MarkNoRead"
+            android:layout_width="wrap_content"
+            android:layout_height="55dip"
+            android:text="@string/MarkNoRead"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="30dip"
+        android:layout_height="20dip"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:text="@string/raxalichv"
+            android:textColor="#ff0000"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/vnAxaliChveneba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:hint="@string/chveneba"
+            android:inputType="numberDecimal"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="#ff0000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/winachveneba"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnWinaChveneba"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#00ff00"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/mricxv_tanrigi"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vnMricxv_tanrigi"
+            android:layout_width="100dip"
+            android:layout_height="25dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/min_xarji"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vnMin_xarji"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/max_xarji"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vnmax_xarji"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <!-- აქ მინდა გადმოვიტანო წინა ჩვენაბა და სპინნერი -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/note"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/vnNote"
+            android:layout_width="500dip"
+            android:layout_height="45dip"
+            android:textSize="25sp" >
+        </Spinner>
+    </LinearLayout>
+    <!-- ეს დასასრულია გადმოსატანი მონაკვეტის -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/rmricxvnumb"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnMricxvNumb"
+            android:layout_width="230dp"
+            android:layout_height="45sp"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="45dip"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="236dp"
+            android:layout_height="45sp"
+            android:text="@string/koeficienti"
+            android:textColor="#000000"
+            android:textSize="25sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/vnKoefocienti"
+            android:layout_width="258dp"
+            android:layout_height="45sp"
+            android:textColor="#000000"
+            android:textSize="25sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:text="@string/isdisconected"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnIsDisconected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/araqvsmricxv"
+            android:textColor="#000000"
+            android:textSize="25sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/vnAraacvsMricxveli"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="25sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="445dp"
+            android:layout_height="45dip"
+            android:text="@string/winachvenebistar"
+            android:textColor="#000000"
+            android:textSize="25sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/vnWinaChvenebisTar"
+            android:layout_width="wrap_content"
+            android:layout_height="45sp"
+            android:textColor="#000000"
+            android:textSize="25sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/raddress"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:text="@string/raccnumb"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnAccNumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/rname"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnName"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:text="@string/rangnum"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnAngNumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textSize="20sp" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:text="@string/modeliskodi"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnModelKod"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="45dip"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="232dp"
+            android:layout_height="45dip"
+            android:text="@string/modeliskodi"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/modelkodID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:enabled="false"
+            android:focusable="false"
+            android:hint="@string/modrl_code"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="400dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/brjenisnumb"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/vnBrdgLuk"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="237dp"
+            android:layout_height="45dip"
+            android:background="#ffffcc"
+            android:text="@string/shenishvna"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/brjID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:enabled="false"
+            android:focusable="false"
+            android:hint="@string/brjeni"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="237dp"
+            android:layout_height="45sp"
+            android:text="@string/shenishvna"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/koefID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:enabled="false"
+            android:focusable="false"
+            android:hint="@string/koeficient"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
